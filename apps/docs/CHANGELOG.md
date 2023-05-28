@@ -1,5 +1,11 @@
 # docs
 
+## 0.3.0
+
+### Minor Changes
+
+- [`16aa13f`](https://github.com/komw/next-safe-middleware/commit/16aa13f0cec0505c9cd4a2727066c547ef8e23bb) - Next.js version bump
+
 ## 0.2.1
 
 ### Patch Changes
