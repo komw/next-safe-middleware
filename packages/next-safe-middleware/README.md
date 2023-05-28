@@ -83,6 +83,10 @@ Such CSPs provide much better security and have always the same structure, so th
 
 This is where this package comes in: To make this setup easy, convenient and a lot less error-prone.
 
+## Docs
+Full version of documentation you can find at [next-safe-middleware-docs.vercel.app](next-safe-middleware-docs.vercel.app)
+
+Demo version of `apps/e2e` you can find at [] 
 
 ### Good Resources about (Strict) Content-Security-Policy (CSP)
 
