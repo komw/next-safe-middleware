@@ -1,5 +1,14 @@
 # e2e
 
+## 0.6.3
+
+### Patch Changes
+
+- [`5ec794c`](https://github.com/nibtime/next-safe-middleware/commit/5ec794c3a4af3e426c0ecf732efa96d4316fc4ef) - fix(middleware): Added forgotten redirect/notFound fields into gsspWithNonce function.
+  fix(e2e): Aadded test pages to test redirect/notFound fields in gsspWithNonce.
+- Updated dependencies [[`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5), [`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5), [`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5), [`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5), [`5ec794c`](https://github.com/nibtime/next-safe-middleware/commit/5ec794c3a4af3e426c0ecf732efa96d4316fc4ef), [`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5), [`c407570`](https://github.com/nibtime/next-safe-middleware/commit/c4075709fd8598ff3af27bafd25e0f298509dac5)]:
+  - @next-safe/middleware@0.10.1
+
 ## 0.6.2
 
 ### Patch Changes
