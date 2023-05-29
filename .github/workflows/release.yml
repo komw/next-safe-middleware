@@ -30,14 +30,17 @@ jobs:
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
         with:
-          # If you are using Yarn Plug'n'Play, you should use a custom version command so that the action can resolve the changeset CLI:
           version:  yarn version:changeset
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release:changeset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: yarn release:changeset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
