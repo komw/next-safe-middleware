@@ -1,5 +1,5 @@
 ---
-"@next-safe/middleware": patch
+"@komw/next-safe-middleware": patch
 ---
 
-refactor: use new `@strict-csp/builder` package as workspace dependency
+refactor: use new `@komw/next-safe-builder/builder` package as workspace dependency

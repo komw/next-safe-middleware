@@ -50,23 +50,23 @@
 
 [license]: LICENSE
 
-[license-badge]: https://img.shields.io/github/license/nibtime/next-safe-middleware?style=flat-square
+[license-badge]: https://img.shields.io/github/license/komw/next-safe-middleware?style=flat-square
 
 [release-status]: https://github.com/komw/next-safe-middleware/actions/workflows/release.yml
 
-[release-status-badge]: https://img.shields.io/github/workflow/status/nibtime/next-safe-middleware/Release?style=flat-square&label=release
+[release-status-badge]: https://img.shields.io/github/workflow/status/komw/next-safe-middleware/Release?style=flat-square&label=release
 
 [github-watch]: https://github.com/komw/next-safe-middleware/watchers
 
-[github-watch-badge]: https://img.shields.io/github/watchers/nibtime/next-safe-middleware.svg?style=social
+[github-watch-badge]: https://img.shields.io/github/watchers/komw/next-safe-middleware.svg?style=social
 
 [github-star]: https://github.com/komw/next-safe-middleware/stargazers
 
-[github-star-badge]: https://img.shields.io/github/stars/nibtime/next-safe-middleware.svg?style=social
+[github-star-badge]: https://img.shields.io/github/stars/komw/next-safe-middleware.svg?style=social
 
 [github-forks]: https://github.com/komw/next-safe-middleware/network/members
 
-[github-forks-badge]: https://img.shields.io/github/forks/nibtime/next-safe-middleware.svg?style=social
+[github-forks-badge]: https://img.shields.io/github/forks/komw/next-safe-middleware.svg?style=social
 
 ## What
 

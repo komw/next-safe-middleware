@@ -31,7 +31,7 @@ export type StrictDynamicCfg = {
    *
    * @see https://caniuse.com/?search=strict-dynamic
    * @see https://web.dev/strict-csp/#step-4:-add-fallbacks-to-support-safari-and-older-browsers
-   * @see https://github.com/nibtime/next-safe-middleware/issues/5
+   * @see https://github.com/komw/next-safe-middleware/issues/5
    *
    * When and how this value get applied, can be customized by
    * the `tellSupported` function and the `inclusiveFallback` flag.
