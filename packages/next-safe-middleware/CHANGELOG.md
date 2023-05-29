@@ -1,5 +1,18 @@
 # @komw/next-safe-middleware
 
+## 0.11.0
+
+### Minor Changes
+
+- [`1be59a1`](https://github.com/komw/next-safe-middleware/commit/1be59a158befa71c10c4ceb7839092e086df784c) - Init repository in new space
+
+- [`1be59a1`](https://github.com/komw/next-safe-middleware/commit/1be59a158befa71c10c4ceb7839092e086df784c) - Bump versions
+
+### Patch Changes
+
+- Updated dependencies [[`1be59a1`](https://github.com/komw/next-safe-middleware/commit/1be59a158befa71c10c4ceb7839092e086df784c), [`1be59a1`](https://github.com/komw/next-safe-middleware/commit/1be59a158befa71c10c4ceb7839092e086df784c)]:
+  - @komw/next-safe-builder@0.3.0
+
 ## 0.10.2
 
 ### Patch Changes
