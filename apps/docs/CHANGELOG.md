@@ -1,5 +1,11 @@
 # docs
 
+## 0.4.0
+
+### Minor Changes
+
+- [`a835ea0`](https://github.com/komw/next-safe-middleware/commit/a835ea072dc75f8f2adc18ec35aa35abcd3083e2) - Added original project mention
+
 ## 0.3.0
 
 ### Minor Changes
