@@ -1,6 +1,6 @@
 {
-  "name": "@strict-csp/builder",
-  "version": "0.0.0",
+  "name": "@komw/next-safe-builder",
+  "version": "0.2.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
@@ -20,6 +20,10 @@
       "dist",
       "crypto-node"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "dev": "NODE_ENV=development rollup -c rollup.config.js --watch",
@@ -51,10 +55,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nibtime/next-safe-middleware"
+    "url": "https://github.com/komw/next-safe-middleware"
   },
   "bugs": {
-    "url": "https://github.com/nibtime/next-safe-middleware/issues"
+    "url": "https://github.com/komw/next-safe-middleware/issues"
   },
   "homepage": "https://next-safe-middleware.vercel.app",
   "description": "Builder with fluent interface for Content-Security-Policy (CSP) with IntelliSense",

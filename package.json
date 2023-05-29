@@ -25,12 +25,12 @@
     "build:docs:no-cache": "yarn build:docs --ignore-cache",
     "build:docs:vercel": "yarn build:docs:no-cache",
     "version:changeset": "yarn changeset version",
-    "release:changeset": "yarn build:pkg:no-cache && yarn changeset publish"
+    "release:changeset": "yarn build:pkg:no-cache && yarn workspaces foreach --no-private npm publish --access public --tolerate-republish"
   },
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.5.1",
   "devDependencies": {
-    "@changesets/changelog-github": "^0.4.3",
-    "@changesets/cli": "^2.21.0",
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
     "@types/eslint": "^8",
     "@types/prettier": "^2",
     "all-contributors-cli": "^6.20.0",
@@ -42,10 +42,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nibtime/next-safe-middleware"
+    "url": "https://github.com/komw/next-safe-middleware"
   },
-  "homepage": "https://github.com/nibtime/next-safe-middleware#readme",
+  "homepage": "https://github.com/komw/next-safe-middleware#readme",
   "bugs": {
-    "url": "https://github.com/nibtime/next-safe-middleware/issues"
+    "url": "https://github.com/komw/next-safe-middleware/issues"
   }
 }
