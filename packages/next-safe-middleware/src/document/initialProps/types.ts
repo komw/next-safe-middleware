@@ -20,7 +20,7 @@ export type CspDocumentInitialPropsOptions = {
    *
    * @default false
    *
-   * @see https://github.com/nibtime/next-safe-middleware/issues/31
+   * @see https://github.com/komw/next-safe-middleware/issues/31
    */
   trustifyStyles?: boolean;
 
@@ -42,7 +42,7 @@ export type CspDocumentInitialPropsOptions = {
    * or a function that pull a string with css text from `initialProps`
    * (if you want an enhanced <App> with nonce, you can't call Document.getInitialProps before);
    *
-   * @see https://github.com/nibtime/next-safe-middleware/issues/34
+   * @see https://github.com/komw/next-safe-middleware/issues/34
    *
    * @example
    * const initialProps = await getCspInitialProps({
