@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <img src=https://user-images.githubusercontent.com/52962482/177227813-b15198ca-2c36-4ba3-afec-efeb581a19a1.png height=75 width=75 />
-  <h1><code>@komw/next-safe-builder/builder</code></h1>
+  <h1><code>@komw/next-safe-builder</code></h1>
   <p><strong>Builder with fluent interface for Content-Security-Policy (CSP) with IntelliSense</strong></p>
 
   <br />
@@ -22,11 +22,11 @@
 
 </div>
 
-[package]: https://npmjs.com/package/@komw/next-safe-builder/builder
-[npmtrends]: https://www.npmtrends.com/@komw/next-safe-builder/builder
+[package]: https://npmjs.com/package/@komw/next-safe-builder
+[npmtrends]: https://www.npmtrends.com/@komw/next-safe-builder
 
-[version-badge]: https://img.shields.io/npm/v/@komw/next-safe-builder/builder.svg?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dm/@komw/next-safe-builder/builder?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@komw/next-safe-builder.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/@komw/next-safe-builder?style=flat-square
 [license]: LICENSE
 [license-badge]: https://img.shields.io/github/license/komw/next-safe-middleware?style=flat-square
 
