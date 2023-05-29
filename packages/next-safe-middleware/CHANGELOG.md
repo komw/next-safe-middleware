@@ -1,5 +1,16 @@
 # @komw/next-safe-middleware
 
+## 0.11.0
+
+### Minor Changes
+
+- [`734056a`](https://github.com/komw/next-safe-middleware/commit/734056a08da2463d8ce0691b69c35059ba8d1a69) - Bump versions
+
+### Patch Changes
+
+- Updated dependencies [[`734056a`](https://github.com/komw/next-safe-middleware/commit/734056a08da2463d8ce0691b69c35059ba8d1a69)]:
+  - @komw/next-safe-builder@0.3.0
+
 ## 0.10.2
 
 ### Patch Changes

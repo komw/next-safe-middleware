@@ -1,5 +1,12 @@
 # e2e
 
+## 0.6.4
+
+### Patch Changes
+
+- Updated dependencies [[`734056a`](https://github.com/komw/next-safe-middleware/commit/734056a08da2463d8ce0691b69c35059ba8d1a69)]:
+  - @komw/next-safe-middleware@0.11.0
+
 ## 0.6.3
 
 ### Patch Changes
