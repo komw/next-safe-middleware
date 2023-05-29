@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <img src=https://user-images.githubusercontent.com/52962482/177227813-b15198ca-2c36-4ba3-afec-efeb581a19a1.png height=75 width=75 />
-  <h1><code>@strict-csp/builder</code></h1>
+  <h1><code>@komw/next-safe-builder</code></h1>
   <p><strong>Builder with fluent interface for Content-Security-Policy (CSP) with IntelliSense</strong></p>
 
   <br />
@@ -22,23 +22,23 @@
 
 </div>
 
-[package]: https://npmjs.com/package/@strict-csp/builder
-[npmtrends]: https://www.npmtrends.com/@strict-csp/builder
+[package]: https://npmjs.com/package/@komw/next-safe-builder
+[npmtrends]: https://www.npmtrends.com/@komw/next-safe-builder
 
-[version-badge]: https://img.shields.io/npm/v/@strict-csp/builder.svg?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dm/@strict-csp/builder?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@komw/next-safe-builder.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/@komw/next-safe-builder?style=flat-square
 [license]: LICENSE
-[license-badge]: https://img.shields.io/github/license/nibtime/next-safe-middleware?style=flat-square
+[license-badge]: https://img.shields.io/github/license/komw/next-safe-middleware?style=flat-square
 
-[release-status]: https://github.com/nibtime/next-safe-middleware/actions/workflows/release.yml
-[release-status-badge]: https://img.shields.io/github/workflow/status/nibtime/next-safe-middleware/Release?style=flat-square&label=release
+[release-status]: https://github.com/komw/next-safe-middleware/actions/workflows/release.yml
+[release-status-badge]: https://img.shields.io/github/workflow/status/komw/next-safe-middleware/Release?style=flat-square&label=release
 
-[github-watch]: https://github.com/nibtime/next-safe-middleware/watchers
-[github-watch-badge]: https://img.shields.io/github/watchers/nibtime/next-safe-middleware.svg?style=social
-[github-star]: https://github.com/nibtime/next-safe-middleware/stargazers
-[github-star-badge]: https://img.shields.io/github/stars/nibtime/next-safe-middleware.svg?style=social
-[github-forks]: https://github.com/nibtime/next-safe-middleware/network/members
-[github-forks-badge]: https://img.shields.io/github/forks/nibtime/next-safe-middleware.svg?style=social
+[github-watch]: https://github.com/komw/next-safe-middleware/watchers
+[github-watch-badge]: https://img.shields.io/github/watchers/komw/next-safe-middleware.svg?style=social
+[github-star]: https://github.com/komw/next-safe-middleware/stargazers
+[github-star-badge]: https://img.shields.io/github/stars/komw/next-safe-middleware.svg?style=social
+[github-forks]: https://github.com/komw/next-safe-middleware/network/members
+[github-forks-badge]: https://img.shields.io/github/forks/komw/next-safe-middleware.svg?style=social
 
 
 ## Contributors
@@ -52,16 +52,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/nibtime"><img src="https://avatars.githubusercontent.com/u/52962482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nibtime</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/commits?author=nibtime" title="Code">💻</a> <a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3Anibtime" title="Bug reports">🐛</a> <a href="https://github.com/nibtime/next-safe-middleware/commits?author=nibtime" title="Documentation">📖</a> <a href="#infra-nibtime" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/nibtime/next-safe-middleware/commits?author=nibtime" title="Tests">⚠️</a> <a href="#ideas-nibtime" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-nibtime" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/alexturpin"><img src="https://avatars.githubusercontent.com/u/134339?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Turpin</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3Aalexturpin" title="Bug reports">🐛</a> <a href="https://github.com/nibtime/next-safe-middleware/commits?author=alexturpin" title="Documentation">📖</a> <a href="#ideas-alexturpin" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/Neki"><img src="https://avatars.githubusercontent.com/u/2143664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoît Faucon</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3Aneki" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://uxsd.io/"><img src="https://avatars.githubusercontent.com/u/1551001?v=4?s=100" width="100px;" alt=""/><br /><sub><b>René Schubert</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3Arenet" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://benhodgson.net"><img src="https://avatars.githubusercontent.com/u/189707?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Hodgson</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3Abenhodgson87" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://sbw.one"><img src="https://avatars.githubusercontent.com/u/908178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stephan Bönnemann-Walenta</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/commits?author=boennemann" title="Code">💻</a></td>
-    <td align="center"><a href="https://cian.ru/"><img src="https://avatars.githubusercontent.com/u/2459175?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shamil Yakupov</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3AShamilik" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/nibtime"><img src="https://avatars.githubusercontent.com/u/52962482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nibtime</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/commits?author=nibtime" title="Code">💻</a> <a href="https://github.com/komw/next-safe-middleware/issues?q=author%3Anibtime" title="Bug reports">🐛</a> <a href="https://github.com/komw/next-safe-middleware/commits?author=nibtime" title="Documentation">📖</a> <a href="#infra-nibtime" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/komw/next-safe-middleware/commits?author=nibtime" title="Tests">⚠️</a> <a href="#ideas-nibtime" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-nibtime" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/alexturpin"><img src="https://avatars.githubusercontent.com/u/134339?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Turpin</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3Aalexturpin" title="Bug reports">🐛</a> <a href="https://github.com/komw/next-safe-middleware/commits?author=alexturpin" title="Documentation">📖</a> <a href="#ideas-alexturpin" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Neki"><img src="https://avatars.githubusercontent.com/u/2143664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Benoît Faucon</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3Aneki" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://uxsd.io/"><img src="https://avatars.githubusercontent.com/u/1551001?v=4?s=100" width="100px;" alt=""/><br /><sub><b>René Schubert</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3Arenet" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://benhodgson.net"><img src="https://avatars.githubusercontent.com/u/189707?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Hodgson</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3Abenhodgson87" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://sbw.one"><img src="https://avatars.githubusercontent.com/u/908178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stephan Bönnemann-Walenta</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/commits?author=boennemann" title="Code">💻</a></td>
+    <td align="center"><a href="https://cian.ru/"><img src="https://avatars.githubusercontent.com/u/2459175?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shamil Yakupov</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3AShamilik" title="Bug reports">🐛</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/DuCanhGH"><img src="https://avatars.githubusercontent.com/u/75556609?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DuCanhGH</b></sub></a><br /><a href="https://github.com/nibtime/next-safe-middleware/issues?q=author%3ADuCanhGH" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/DuCanhGH"><img src="https://avatars.githubusercontent.com/u/75556609?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DuCanhGH</b></sub></a><br /><a href="https://github.com/komw/next-safe-middleware/issues?q=author%3ADuCanhGH" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/aheimlich"><img src="https://avatars.githubusercontent.com/u/150901?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aaron Heimlich</b></sub></a><br /><a href="#ideas-aheimlich" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
