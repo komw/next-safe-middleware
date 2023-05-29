@@ -1,5 +1,12 @@
 # docs
 
+## 0.2.2
+
+### Patch Changes
+
+- Updated dependencies [[`ce8c866`](https://github.com/komw/next-safe-middleware/commit/ce8c8663017eaf18c0d1a3f26db18fc4a0fc8d02)]:
+  - @komw/next-safe-middleware@0.11.0
+
 ## 0.2.1
 
 ### Patch Changes

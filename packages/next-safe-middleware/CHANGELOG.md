@@ -1,5 +1,11 @@
 # @komw/next-safe-middleware
 
+## 0.11.0
+
+### Minor Changes
+
+- [#4](https://github.com/komw/next-safe-middleware/pull/4) [`ce8c866`](https://github.com/komw/next-safe-middleware/commit/ce8c8663017eaf18c0d1a3f26db18fc4a0fc8d02) Thanks [@komw](https://github.com/komw)! - Builder version bump
+
 ## 0.10.1
 
 ### Patch Changes
