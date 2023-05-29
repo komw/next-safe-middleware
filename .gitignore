@@ -21,3 +21,6 @@
 **/public/sitemap*.xml
 **/public/robots.txt
 .vercel
+
+#IDEs
+.idea
