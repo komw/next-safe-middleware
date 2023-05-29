@@ -16,22 +16,32 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Setup Node.js 14.x
-        uses: actions/setup-node@v2
+      - name: Setup Node.js 16.x
+        uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: 16.x
+          always-auth: true
 
       - name: Install Dependencies
         run: yarn install --immutable --immutable-cache
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Save Token
+        run: "echo 'npmAuthToken: ${NPM_TOKEN}' >> .yarnrc.yml"
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
         with:
-          # If you are using Yarn Plug'n'Play, you should use a custom version command so that the action can resolve the changeset CLI:
           version:  yarn version:changeset
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release:changeset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: yarn release:changeset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          ENV_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

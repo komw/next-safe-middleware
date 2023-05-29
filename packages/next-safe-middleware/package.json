@@ -1,6 +1,6 @@
 {
-  "name": "@next-safe/middleware",
-  "version": "0.10.0",
+  "name": "@komw/next-safe-middleware",
+  "version": "0.10.9",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
@@ -17,6 +17,10 @@
     ],
     "output": "dist"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "dev": "NODE_ENV=development rollup -c rollup.config.js --watch",
     "clean": "rm -rf .swc dist package.tgz",
@@ -30,7 +34,7 @@
     "react": ">=17"
   },
   "dependencies": {
-    "@strict-csp/builder": "workspace:*",
+    "@komw/next-safe-builder": "workspace:*",
     "cheerio": "^1.0.0-rc.10",
     "lockfile": "^1.0.4"
   },
@@ -61,10 +65,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nibtime/next-safe-middleware"
+    "url": "https://github.com/komw/next-safe-middleware"
   },
   "bugs": {
-    "url": "https://github.com/nibtime/next-safe-middleware/issues"
+    "url": "https://github.com/komw/next-safe-middleware/issues"
   },
   "homepage": "https://next-safe-middleware.vercel.app",
   "description": "Strict Content-Security-Policy (CSP) for Next.js with composable middleware",
