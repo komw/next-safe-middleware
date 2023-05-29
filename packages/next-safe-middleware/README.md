@@ -68,6 +68,13 @@
 
 [github-forks-badge]: https://img.shields.io/github/forks/komw/next-safe-middleware.svg?style=social
 
+## Original project
+
+Initially, the project was being developed in the repository https://github.com/nibtime/next-safe-middleware. However, it was likely abandoned by the author (no responses to pull
+requests, comments, or reported bugs). The lack of support and assistance in merging pull requests and building the target library prompted me to move everything to my own
+repository.
+(_[Szymon Gładysz](https://github.com/komw)_)
+
 ## What
 
 This package strives to make the setup and deployment of a [Strict Content Security Policy (CSP)
@@ -114,6 +121,7 @@ This is where this package comes in: To make this setup easy, convenient and a l
 * Great tool to record CSP sources by browsing your site: [The Laboratory Extension for Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/laboratory-by-mozilla/)
 
 ## Docs
+
 Full version of documentation you can find at [next-safe-middleware-docs.vercel.app](https://next-safe-middleware-docs.vercel.app)
 
 ## Getting started
