@@ -1,6 +1,6 @@
 {
   "name": "@komw/next-safe-middleware",
-  "version": "0.10.4",
+  "version": "0.10.5",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
